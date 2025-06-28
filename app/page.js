@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>Hi Prashant
+    <div className="p-16">Hi Prashant
       <Button variant={'destructive'}> Confirm IT</Button>
     </div>
   );
