@@ -135,3 +135,9 @@
     @apply bg-gradient-to-r from-green-600 to-teal-500 text-transparent bg-clip-text font-extrabold tracking-tighter px-2 py-2;
   }
 }
+
+@layer utilities {
+  .gradient {
+    @apply bg-gradient-to-r from-green-600 to-teal-500;
+  }
+}
